@@ -3,11 +3,11 @@
     <div class="orido_tm_contact w-full h-auto clear-both float-left bg-main-color px-0 pt-[135px] pb-[120px] relative">
         <div class="container pb-7">
             <div class="infobox w-full float-left flex items-center justify-between mb-[116px]">
-                <div class="video_button">
+                {{-- <div class="video_button">
                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><img class="anim_circle"
                             src="assets/img/contact/video.png" alt="" /><img class="svg"
                             src="assets/img/svg/play.svg" alt="" /></a>
-                </div>
+                </div> --}}
                 <div class="text py-0 px-[115px]">
                     <h3 class="font-bold text-[56px] tracking-[-2px] text-white mb-[25px]">Let's work together</h3>
 
