@@ -7,19 +7,22 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function Home(){
-        return view('Home');
+        $title='Home';
+        return view('Home',compact('title')) ;
     }
     public function About()
     {
-        return view('About');
+        $title='About';
+        return view('About',compact('title')) ;
     }
 
     public function Project()
     {
-        return view('Project');
+        $title='Project';
+        return view('Project',compact('title')) ;
     }
     public function Contact()
-    {
-        return view('Contact');
+    {    $title='Contact';
+        return view('Contact',compact('title')) ;
     }
 }
