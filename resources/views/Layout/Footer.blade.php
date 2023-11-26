@@ -4,7 +4,7 @@
         <div class="container">
             <div class="copyright_inner w-full h-auto clear-both flex items-center justify-between">
                 <div class="logo">
-                    <img class="max-w-[170px] max-h-[80px]" src="assets/img/logo/logo.png" alt="" />
+                    <img class="max-w-[170px] max-h-[80px]" src="assets/img/logo/siam.png" alt="" />
                 </div>
                 <div class="copy">
                     <p class="text-main-color text-[16px] font-medium">&copy; 2023 by <a class="text-main-color" href="#" target="_blank">DEVSIAM.</a> All Rights Reserved</p>

@@ -3,7 +3,7 @@
     <div class="mobile_menu_inner w-full h-auto float-left clear-both bg-white py-[10px] px-[20px]">
         <div class="mobile_in w-full h-auto clear-both float-left flex items-center justify-between">
             <div class="logo">
-                <a href="#"><img class="max-w-[90px] max-h-[70px]" src="assets/img/logo/light.png"
+                <a href="{{ route('home') }}"><img class="max-w-[90px] max-h-[70px]" src="assets/img/logo/siam.png"
                         alt="" /></a>
             </div>
             <div class="trigger leading-[0]">
@@ -21,7 +21,7 @@
                 <li class="float-left w-full"><a class="text-black inline-block p-0 font-medium"
                     href="{{ route('home') }}">Home</a></li>
                 <li class="float-left w-full"><a class="text-black inline-block p-0 font-medium"
-                        href="{{ route('about') }}">About</a></li>
+                        href="{{ route('about') }}">About Me</a></li>
                 {{-- <li class="float-left w-full"><a class="text-black inline-block p-0 font-medium"
                         href="#service">Service</a></li> --}}
                 <li class="float-left w-full"><a class="text-black inline-block p-0 font-medium"
@@ -42,12 +42,12 @@
     <div class="header_in w-full flex items-center justify-between">
         <div class="logo">
             <a href="{{ route('home') }}"><img class="max-w-[170px] max-h-[90px]"
-                    src="{{ asset('assets/img/logo/light.png') }}" alt="" /></a>
+                    src="{{ asset('assets/img/logo/siam.png') }}" alt="" /></a>
         </div>
         <div class="menu relative">
             <ul class="anchor_nav flex items-center">
                 <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('home') }}">Home</a></li>
-                <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('about') }}">About</a></li>
+                <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('about') }}">About Me</a></li>
                 {{-- <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="#service">Service</a></li> --}}
                 <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('project') }}">Projects</a></li>
                 {{-- <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="#blog">Blog</a></li> --}}
