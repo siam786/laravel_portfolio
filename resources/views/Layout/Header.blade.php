@@ -45,12 +45,12 @@
                     src="{{ asset('assets/img/logo/siam.png') }}" alt="" /></a>
         </div>
         <div class="menu relative">
-            <ul class="anchor_nav flex items-center">
-                <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('home') }}">Home</a></li>
-                <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('about') }}">About Me</a></li>
-                {{-- <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="#service">Service</a></li> --}}
-                <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="{{ route('project') }}">Projects</a></li>
-                {{-- <li class="mr-[50px]"><a class="text-[#5A5A5A]" href="#blog">Blog</a></li> --}}
+            <ul class="anchor_nav flex items-center" style>
+                <li style="text-white" class="mr-[50px]"><a class="text-[#fff]" href="{{ route('home') }}">Home</a></li>
+                <li  class="mr-[50px]"><a class="text-[#fff]" href="{{ route('about') }}">About Me</a></li>
+                {{-- <li class="mr-[50px]"><a class="text-[#fff]" href="#service">Service</a></li> --}}
+                <li class="mr-[50px]"><a class="text-[#fff]" href="{{ route('project') }}">Projects</a></li>
+                {{-- <li class="mr-[50px]"><a class="text-[#fff]" href="#blog">Blog</a></li> --}}
                 <li><a href="{{ route('contact') }}">Contact</a></li>
             </ul>
             <span class="ccc"></span>
