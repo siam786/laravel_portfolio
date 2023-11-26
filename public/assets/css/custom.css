@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
     border-radius: 6px;
     border: 3px solid #fff;
   }
-  
+
   ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
       color: var(--main-color);
   }
@@ -31,11 +31,11 @@ body::-webkit-scrollbar {
   ::-ms-input-placeholder { /* Microsoft Edge */
      color: var(--main-color);
   }
-  
+
   ::placeholder { /* Most modern browsers support this now. */
      color: var(--main-color);
   }
-  
+
   .container{
       max-width: 1250px;
       width:100%;
@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
          -moz-box-sizing: border-box; /* Firefox, other Gecko */
               box-sizing: border-box; /* Opera/IE 8+ */
   }
-  
+
   #preloader{
       position: fixed;
       left: 0;
@@ -124,7 +124,7 @@ body::-webkit-scrollbar {
       animation: lineround 1200ms linear 0s infinite;
       animation-delay: 2000ms;
   }
-  
+
   @keyframes lineheight{
       0%{
           height: 0%;
@@ -133,7 +133,7 @@ body::-webkit-scrollbar {
           height: 100%;
       }
   }
-  
+
   @keyframes lineround{
       0%{
           -webkit-transform: translateY(-100%);
@@ -148,7 +148,7 @@ body::-webkit-scrollbar {
           transform: translateY(200%);
       }
   }
-  
+
   /*hiding all*/
   .preloaded .loader_line:after{
       opacity: 0;
@@ -189,7 +189,7 @@ body::-webkit-scrollbar {
 	background-color: var(--main-color);
 	display: block;
 	height: 2px;
-	
+
 	-webkit-transition: all .5s ease;
 	   -moz-transition: all .5s ease;
 	    -ms-transition: all .5s ease;
@@ -219,7 +219,7 @@ body::-webkit-scrollbar {
 	display: inline-block;
 	white-space: nowrap;
 	word-wrap: break-word;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -230,7 +230,7 @@ body::-webkit-scrollbar {
 	width: 24px;
 	height: 24px;
 	margin-left: 6px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -369,7 +369,7 @@ body::-webkit-scrollbar {
 	position: absolute;
 	z-index: -1;
 	border-radius: 16px;
-	
+
 	-webkit-transition: all .5s ease;
 	   -moz-transition: all .5s ease;
 	    -ms-transition: all .5s ease;
@@ -393,11 +393,11 @@ body::-webkit-scrollbar {
     -moz-animation: slide-down 1s ease;
 }
 @-webkit-keyframes slide-down {
-      0% { -webkit-transform: translateX(10%); }   
+      0% { -webkit-transform: translateX(10%); }
     100% {  -webkit-transform: translateX(0); }
 }
 @-moz-keyframes slide-down {
-      0% {  -moz-transform: translateX(10%); }   
+      0% {  -moz-transform: translateX(10%); }
     100% {  -moz-transform: translateX(0); }
 }
 .orido_tm_informations .timelinebox .job span:before{
@@ -432,7 +432,7 @@ body::-webkit-scrollbar {
 	position: absolute;
 	z-index: 1;
 	background-color: #6244C5;
-	
+
 	-webkit-transition: all .5s ease;
 	   -moz-transition: all .5s ease;
 	    -ms-transition: all .5s ease;
@@ -487,7 +487,7 @@ body::-webkit-scrollbar {
 	background-color: var(--main-color);
 	left: 0px;
 	bottom: 3px;
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -507,7 +507,7 @@ body::-webkit-scrollbar {
 	border-radius: 100%;
 	margin-top: -135px;
 	border: 1px solid rgba(18,0,0,.2);
-	
+
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
 	    -ms-transition: all .3s ease;
@@ -680,7 +680,7 @@ body::-webkit-scrollbar {
       position: absolute;
       z-index: -1111;
   }
-  
+
   .progressbar{
       position: fixed;
       height: 100px;
@@ -689,7 +689,7 @@ body::-webkit-scrollbar {
       right: -25px;
       background-color: rgba(0,0,0,.08);
       z-index: 10;
-      
+
       -webkit-transition: all .3s ease;
          -moz-transition: all .3s ease;
           -ms-transition: all .3s ease;
@@ -722,8 +722,8 @@ body::-webkit-scrollbar {
   .orido_tm_mobile_menu .mobile_menu_inner{
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
-.orido_tm_mobile_menu .hamburger-inner, 
-.orido_tm_mobile_menu .hamburger-inner:after, 
+.orido_tm_mobile_menu .hamburger-inner,
+.orido_tm_mobile_menu .hamburger-inner:after,
 .orido_tm_mobile_menu .hamburger-inner:before{
 	width: 30px;
 	height: 2px;
@@ -734,3 +734,47 @@ body::-webkit-scrollbar {
 .orido_tm_mobile_menu .hamburger{
 	padding: 0px;
 }
+
+/* SKILLS css start */
+.skill-group {
+	margin: 0 auto;
+	width: 70%;
+}
+.skill-group > p {
+	color: white
+}
+.skill-bar {
+	width: 100%;
+	background-color: white;
+}
+.skill-value {
+	text-align: right;
+	padding: 10px;
+    font-weight: bold;
+	color: #fff;
+}
+.html {
+	width: 90%;
+	background-color: hsl(12, 100%, 50%);
+}
+.js {
+	width: 70%;
+	background-color: hsl(12, 100%, 50%);
+}
+.python {
+	width: 55%;
+	background-color: hsl(12, 100%, 50%);
+}
+.vba {
+	width: 70%;
+	background-color: hsl(12, 100%, 50%);
+}
+.office {
+	width: 70%;
+	background-color: hsl(12, 100%, 50%);
+}
+.acrobat {
+	width: 60%;
+	background-color: hsl(12, 100%, 50%);
+}
+/* SKILLS css end */

@@ -32,11 +32,12 @@
                         <a href="assets/img/cv/1.jpg" download>Download CV <img class="svg"
                                 src="assets/img/svg/paper.svg" alt="" /></a>
                     </div>
-                    <img class="max-w-[200px] max-h-[200px] ml-[50px]" src="assets/img/signature.png" alt="" />
+                    {{-- <img class="max-w-[200px] max-h-[200px] ml-[50px]" src="assets/img/signature.png" alt="" /> --}}
                 </div>
             </div>
         </div>
-        <div class="pr-[50px] about_in w-full h-auto max-w-[1070px] mx-auto my-0 flex items-center">
+        <div class="pr-[50px] about_in w-full h-auto max-w-[1070px] mx-auto my-0 flex items-center"
+            style="padding-top:50px ">
             <div class="right w-1/2 relative">
                 <span class="element absolute top-0 right-full mr-[15px] mt-[-20px]"><img
                         class="svg w-[80px] h-[80px] text-transparent" src="assets/img/svg/element.svg"
@@ -58,16 +59,42 @@
 
             </div>
             <div class="left w-1/2 pr-[50px]">
-                <div class="box bg-[#FFC448] inline-block overflow-hidden pb-[85px] relative">
-                    <h3
-                        class="year font-oswald tracking-[-4px] font-extrabold text-[395px] relative mr-[-30px] mt-[-95px] !text-[#6244C5] leading-[1]">
-                        5</h3>
-                    <span class="experience text-[24px] pl-[50px] mt-[6px] inline-block">Years of Experience</span>
-                    <h3
-                        class="name text-[80px] !text-[#6244C5] font-bold tracking-[-4px] leading-[1] uppercase absolute bottom-[-30px] left-[-20px] w-[300%]">
-                        Certificatioin</h3>
+                <img src="{{ asset('assets/img/about/bangladeshUniversity.jpg') }}" alt="">
+            </div>
+
+        </div>
+        <div class="pr-[50px] about_in w-full h-auto max-w-[1070px] mx-auto my-0 flex items-center"
+            style="padding-top:50px ">
+
+
+            <h1 style="text-align: center; color: white">Skills Bar</h1>
+            <div class="skill-group">
+                <p>HTML, CSS and Web Design</p>
+                <div class="skill-bar">
+                    <div class="skill-value html">90%</div>
+                </div>
+                <p>Javascript</p>
+                <div class="skill-bar">
+                    <div class="skill-value js">70%</div>
+                </div>
+                <p>laravel</p>
+                <div class="skill-bar">
+                    <div class="skill-value python">55%</div>
+                </div>
+                <p>VUE</p>
+                <div class="skill-bar">
+                    <div class="skill-value vba">70%</div>
+                </div>
+                <p>PHP</p>
+                <div class="skill-bar">
+                    <div class="skill-value office">70%</div>
+                </div>
+                <p>REACT</p>
+                <div class="skill-bar">
+                    <div class="skill-value acrobat">60%</div>
                 </div>
             </div>
+
 
         </div>
     </div>
