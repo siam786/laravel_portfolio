@@ -64,7 +64,7 @@
         <div class="img relative inline-block">
             <img class="max-w-[700px] max-h-[760px]" src="{{ asset('assets/img/hero/siam.jpg') }}" alt="" />
             <div class="video_button">
-                <a class="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><img class="anim_circle"
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=Y7Rm2Gx02o0"><img class="anim_circle"
                         src="{{ asset('assets/img/hero/welcome.png') }}" alt="" /><img class="svg"
                         src="{{ asset('assets/img/svg/play.svg') }}" alt="" /></a>
             </div>
