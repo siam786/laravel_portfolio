@@ -36,6 +36,39 @@
                     </ul>
                 </div>
                 <div class="right">
+                    {{-- contact form start --}}
+                    <div
+                        class="w-full h-screen p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+                        <div class="flex p-4 mt-4" style="margin-bottom: 10">
+                            <h1 class="font-bold uppercase text-3xl text-red-300">Send us a message</h1>
+                        </div>
+                        <div class="gap-5 md:grid-cols-2 mt-5">
+                            <form action="" method="get">
+                                @csrf
+                                <input
+                                    class="w-full bg-gray-100 text-blue-500 mt-4 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="text" placeholder="Name*" required style="padding:0 15px">
+
+                                <input
+                                    class="w-full bg-gray-100 text-blue-500 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="email" placeholder="Email*" required style="padding:0 15px">
+                                <input
+                                    class="w-full bg-gray-100 text-blue-500 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                    type="number" placeholder="Phone*" required style="padding:0 15px">
+                        </div>
+                        <div class="my-4">
+                            <textarea placeholder="Message*"
+                                class="w-full h-screen bg-gray-100 text-blue-500 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                                style="height: 102px;padding:0 15px" spellcheck="trye" required style="padding:0 15px"></textarea>
+                        </div>
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            style="background: #6244C5;padding: 10px 20px;">
+                            Send Message
+                        </button>
+                        </form>
+                        {{-- contact form end --}}
+                    </div>
+
                     {{-- <div class="orido_tm_follow flex items-center">
                         <span>Follow me:</span>
                         <ul class="flex items-center relative top-[5px] ml-[20px]">
@@ -45,36 +78,7 @@
                         </ul>
                     </div> --}}
                 </div>
-                {{-- contact form start --}}
-                <div
-                    class="w-full h-screen p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-                    <div class="flex">
-                        <h1 class="font-bold uppercase text-3xl text-red-300">Send us a message</h1>
-                    </div>
-                    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
-                        <input
-                            class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                            type="text" placeholder="First Name*">
-                        <input
-                            class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                            type="text" placeholder="Last Name*">
-                        <input
-                            class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                            type="email" placeholder="Email*">
-                        <input
-                            class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                            type="number" placeholder="Phone*">
-                    </div>
-                    <div class="my-4">
-                        <textarea placeholder="Message*"
-                            class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                            spellcheck="false"></textarea>
-                    </div>
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                        Button
-                      </button>
-                </div>
-                {{-- contact form end --}}
+
 
             </div>
         </div>
